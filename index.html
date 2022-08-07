@@ -4,25 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viajes Chile</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
-<link rel="stylesheet" href="./assests/css/styles.css">
+<link rel="stylesheet" href="assests/css/styles.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-
+<link rel="shortcut icon" href="./assests/img/favicon.ico" type="image/x-icon">
+<title>Viajes Chile Mauricio Vera</title>
 </head>
-
 <body>
 
-<header>
-
 <section class="container">    
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
         <div class="container">
         <img src="./assests/img/viajes.svg" alt="logo viaje" width="25" margin="20">
-          <a class="navbar-brand" href="#">Viajes Chile</a>
+          <a class="navbar-brand text-white" href="#">Viajes Chile</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -31,19 +28,18 @@
             <div class="mx-auto"></div>
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Inicio</a>
+                <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Quienes Somos</a>
+                <a class="nav-link" href="#quienes somos">Quienes Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Destacados</a>
+                <a class="nav-link" href="#destacados">Destacados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
-              
-            </ul>
+              </ul>
           </div>
         </div>
       </nav>    
@@ -52,9 +48,8 @@
 
 
 
-<section class="carousel">
-    <div class="imagenes_carousel"></div>
-</section>
+<header id="inicio">
+
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
   <div class="carousel-indicators">
@@ -87,106 +82,119 @@
 
 
 
-<section id="quienes somos" class="container py-3 my-3 border-dark"></section>
+
+<section id="quienes somos">
+<div class="container py-3 my-3 border-dark">
 <h1 class="text-center fw-bold my-4">¿QUIÉNES SOMOS?</h1>
-<hr>
 
+<hr class="bg-info mb-4">
+</div>
 
-
-<div class="row">  
-  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
-     <div class="card">
-      <div class="card-header bg-dark" style="background-color: #2fd1ed">icono avión</div>
-         <div class="card-body">
-         <p class="card-text card-parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo ea consequuntur vero similique, maiores impedit architecto fugiat? Eum, voluptate quo! Ut eveniet itaque recusandae ab hic reiciendis architecto minus facilis!</p>
+<div class="container"> 
+<div class="row my-5">  
+  <div class="col-md-6 col-lg-4 col-xl-4 text-left">
+     <div class="card" style="border: none;">      
+      <div class="card-header" style="background-color: #2fd1ed">
+        <div class="text-center">
+        <i class="fa-solid fa-plane fa-2x"></i>
+      </div>
+      </div>
+         <div class="card-body" style="background-color: #000000">
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo ea consequuntur vero similique, maiores impedit architecto fugiat? Eum, voluptate quo! Ut eveniet itaque recusandae ab hic reiciendis architecto minus facilis! <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque modi, beatae dolore neque consequatur ipsam reiciendis adipisci obcaecati, non excepturi tempora eum deserunt itaque qui consectetur a magnam! Unde, veritatis tempora eum deserunt itaque qui consectetur a magnam! Unde, veritatis. </p>
     </div>
   </div>
 </div>
 
-<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
-  <div class="card">
-   <div class="card-header bg-dark">icono montaña</div>
-      <div class="card-body">
-      <p class="card-text card-parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo ea consequuntur vero similique, maiores impedit architecto fugiat? Eum, voluptate quo! Ut eveniet itaque recusandae ab hic reiciendis architecto minus facilis!</p>
- </div>
-</div>
-</div>
 
-<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
-  <div class="card">
-   <div class="card-header bg-dark">icono ubicación</div>
-      <div class="card-body">
-      <p class="card-text card-parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo ea consequuntur vero similique, maiores impedit architecto fugiat? Eum, voluptate quo! Ut eveniet itaque recusandae ab hic reiciendis architecto minus facilis!</p>
- </div>
-</div>
-</div>
-
-
-
-    <section id="quienes somos" class="container py-3 my-3 border-dark"></section>
-    <h2 class="text-center fw-bold my-4">DESTACADOS</h2>
-<hr>
-
+<div class="col-md-4 col-lg-4 col-xl-4 text-left">
   
+  <div class="card" style="border: none;"> 
+      <div class="card-body" style="background-color: #000000">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo ea consequuntur vero similique, maiores impedit architecto fugiat? Eum, voluptate quo! Ut eveniet itaque recusandae ab hic reiciendis architecto minus facilis! <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, voluptate magni est voluptas vel quos quaerat sed dolore ipsam veritatis libero aliquid tempore et ipsum facilis odio tempora eum deserunt itaque qui consectetur a magnam! Unde, nihil.</p>
+     </div>
+  </div>
+ <div class="card-header" style="background-color: #2fd1ed">
+  <div class="text-center">
+  <i class="fa-solid fa-mountain fa-2x"></i>
+</div>
+  </div>
+</div>
 
-<div class="row">
-<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4 text-white">
+
+
+<div class="col-md-4 col-lg-4 col-xl-4 text-left">
+  <div class="card" style="border: none;">
+   <div class="card-header" style="background-color: #2fd1ed">
+    <div class="text-center">
+    <i class="fa-solid fa-map-pin fa-2x"></i>
+  </div>
+</div>
+  </div>
+      <div class="card-body" style="background-color: #000000">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo ea consequuntur vero similique, maiores impedit architecto fugiat? Eum, voluptate quo! Ut eveniet itaque recusandae ab hic reiciendis architecto minus facilis! <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque adipisci, alias similique reprehenderit architecto iure officia porro inventore minima doloribus aspernatur. Repudiandae accusamus consectetur et temporibus nostrum nesciunt distinctiotempora eum deserunt itaque tempora eum deserunt itaque qui consectetur a magnam! Unde, veritatis qui consectetur a magnam! Unde, veritatis.</p>
+ </div>
+</div>
+</section> 
+
+
+<section id="destacados">
+  <div class="container py-3 my-3 border-dark">
+  <h1 class="text-center fw-bold my-4">DESTACADOS</h1>
+
+<hr class="bg-info mb-4">   
+
+<div class="container"> 
+<div class="row my-5">
+<div class="col-12 col-md-6 col-lg-3 col-xl-3 my-3">
        <div class="card">
-         <img src="./assests/img/card1.jpg" class="card-img-top" alt="torres del paine">
+         <img src="./assests/img/card1.jpg" class="card-img-top img-fluid" alt="torres del paine">
          <div class="card-body" style="background-color: #2fd1ed"> 
            <h5 class="card-title title-recipe">Torres del Paine</h5>
-           <p class="card-text card-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae quae nesciunt numquam! Molestias vitae mollitia illo animi quod, earum consequatur suscipit rem consectetur cupiditate ducimus necessitatibus sunt tenetur accusamus.</p> 
+           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae quae nesciunt numquam! Molestias vitae mollitia illo animi quod, earum consequatur suscipit rem consectetur cupiditate ducimus necessitatibus sunt tenetur accusamus.</p> 
       </div>
     </div>
   </div>
 
-  
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4 text-white">
-       <div class="card" style="background-color: #2fd1ed">
-         <img src="./assests/img/card2.jpg" class="card-img-top" alt="altiplano">
-         <div class="card-body">
+      <div class="col-12 col-md-6 col-lg-3 col-xl-3 my-3">
+       <div class="card">
+         <img src="./assests/img/card2.jpg" class="card-img-top img-fluid" alt="altiplano">
+         <div class="card-body" style="background-color: #2fd1ed">
            <h5 class="card-title title-recipe">Altiplano</h5>
-           <p class="card-text card-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae quae nesciunt numquam! Molestias vitae mollitia illo animi quod, earum consequatur suscipit rem consectetur cupiditate ducimus necessitatibus sunt tenetur accusamus.</p>
+           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae quae nesciunt numquam! Molestias vitae mollitia illo animi quod, earum consequatur suscipit rem consectetur cupiditate ducimus necessitatibus sunt.</p>
       </div>
     </div>
   </div>
 
-  
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4 text-white">
-       <div class="card" style="background-color: #2fd1ed">
-         <img src="./assests/img/card3.jpg" class="card-img-top" alt="desierto de atacama">
-         <div class="card-body">
+      <div class="col-12 col-md-6 col-lg-3 col-xl-3 my-3">
+       <div class="card">
+         <img src="./assests/img/card3.jpg" class="card-img-top img-fluid" alt="desierto de atacama">
+         <div class="card-body" style="background-color: #2fd1ed">
            <h5 class="card-title title-recipe">Desierto de Atacama</h5>
-           <p class="card-text card-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae quae nesciunt numquam! Molestias vitae mollitia illo animi quod, earum consequatur suscipit rem consectetur cupiditate ducimus necessitatibus sunt tenetur accusamus.</p>
+           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae quae nesciunt numquam! Molestias vitae mollitia illo animi quod, earum consequatur suscipit rem consectetur cupiditate ducimus necessitatibus sunt tenetur accusamus.</p>
       </div>
     </div>
   </div>
-
-  
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4 text-white">
-       <div class="card" style="background-color: #2fd1ed">
-         <img src="./assests/img/card4.jpg" class="card-img-top" alt="bosque valdiviano">
-         <div class="card-body">
+ 
+    <div class="col-12 col-md-6 col-lg-3 col-xl-3 my-3">
+       <div class="card"> 
+         <img src="./assests/img/card4.jpg" class="card-img-top img-fluid" alt="bosque valdiviano">
+         <div class="card-body" style="background-color: #2fd1ed">
            <h5 class="card-title title-recipe">Bosque Valdiviano</h5>
-           <p class="card-text card-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae quae nesciunt numquam! Molestias vitae mollitia illo animi quod, earum consequatur suscipit rem consectetur cupiditate ducimus necessitatibus sunt tenetur accusamus.</p>
+           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae quae nesciunt numquam! Molestias vitae mollitia illo animi quod, earum consequatur suscipit rem consectetur cupiditate ducimus necessitatibus sunt tenetur accusamus.</p>
       </div>
     </div>
   </div>
-
-
-
-  <section id="contacto" class="container py-3 my-3">
-    <h3 class="text-center fw-bold my-4">CONTACTO</h3>
-<hr>
+</div>
+   
     
-    
+<section id="contacto">
+  <div class="container py-3 my-3 border-dark">
+  <h1 class="text-center fw-bold my-4">CONTACTO</h1>
+  
+  <hr class="bg-info mb-4">
+  </div>
 
 
-
-    <section>
-      <div class="container-fluid">
-        <div class="row" style="background-color: #000000;">
-          <div class="col text-light p-4">
 
     <form>
     <div class="mb-3">
@@ -204,7 +212,12 @@
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
     
-    <button type="submit" class="btn btn-light btn-lg px-4">Enviar</button>
+    <button
+    type="button"
+    class="btn btn-info mt-4"
+    data-bs-toggle="tooltip"
+    data-bs-placement="right"
+    title="Enviar Información">Enviar</button>
   </form>
 </div>
 </div>
@@ -213,7 +226,7 @@
 
 
 
-<footer class="container-fluid bg-info text-white py-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block" style="background-color: #2fd1ed">
+<footer class="container-fluid py-4" style="background-color: #2fd1ed">
   <div class="container">  
    <div class="row">
       <div class="col-8">
@@ -222,24 +235,37 @@
       <div class="col-4">
           <div class="row">
             <div class="col-3">
-            <i class="fa-brands fa-github-square fa-3x"></i>
+            <i class="fa-brands fa-github-square fa-3x"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="HitHub"></i>
             </div>
+
+
             <div class="col-3">
-            <i class="fa-brands fa-linkedin fa-3x"></i>
+            <i class="fa-brands fa-linkedin fa-3x"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Linkedin"></i>
             </div>
+
+
             <div class="col-3">
-              <i class="fa-solid fa-square-envelope fa-3x"></i>
+              <i class="fa-solid fa-square-envelope fa-3x"
+              data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Mail"></i>
               </div>
             <div class="col-3">
-              <i class="fa-solid fa-barcode fa-3x"></i>
+              <i class="fa-solid fa-barcode fa-3x"
+              data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Código Barra"></i>
             </div>
         </div>   
     </div>                
-  </div>          
-</footer>
-
-
-
+  </div> 
+  </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
